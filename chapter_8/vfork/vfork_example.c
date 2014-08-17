@@ -12,7 +12,8 @@ int main()
 		return -1;
 	}else if(pid == 0){//子进程
 		printf("child:\n");
-		execlp("/bin/ls","ls","-l",0);
+		//execlp(filename,argv[0],argv[1]...,0),filename is search from PATH
+		execlp("ls","ls","-l",0);
 		exit(0);
 	}else{//父进程
 		printf("father:\n");
