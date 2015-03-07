@@ -1,0 +1,1 @@
+cmd_/root/APUE/result/mmap_driver_app/mmap_driver.ko := ld -EL -r  -T /usr/src/kernels/3.12.26-1.20140808git4ab8abb.rpfr20.armv6hl.bcm2708/scripts/module-common.lds --build-id  -o /root/APUE/result/mmap_driver_app/mmap_driver.ko /root/APUE/result/mmap_driver_app/mmap_driver.o /root/APUE/result/mmap_driver_app/mmap_driver.mod.o
